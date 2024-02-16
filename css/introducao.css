@@ -57,7 +57,7 @@
 
 @media (max-width: 400px){
     .introducao{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Lembrando que os estilos anteriores ao ajuste do Media Query continuam sendo aplicados, apenas retiramos e ajustamos o que desejamos */
     }
     
     .introducao img{
